@@ -1,0 +1,41 @@
+[
+  {
+    "name": "wttr",
+    "regex": "^wttr( usage)?$",
+    "script": "WTTR.usage()"
+  },
+  {
+    "name": "wttr config",
+    "regex": "^wttr config (\\w+) (.+)"
+  },
+  {
+    "name": "wttr hide",
+    "regex": "^wttr hide$",
+    "script": "WTTR.hide()"
+  },
+  {
+    "name": "wttr show",
+    "regex": "^wttr show$",
+    "script": "WTTR.show()"
+  },
+  {
+    "name": "wttr load",
+    "regex": "^wttr load$",
+    "script": "WTTR.load()"
+  },
+  {
+    "name": "wttr save",
+    "regex": "^wttr save$",
+    "script": "WTTR.save()"
+  },
+  {
+    "name": "wttr start",
+    "regex": "^wttr start$",
+    "script": "WTTR.start() WTTR.show()"
+  },
+  {
+    "name": "wttr stop",
+    "regex": "^wttr stop$",
+    "script": "WTTR.stop() WTTR.hide()"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "package": "MudletWTTR",
+  "version": "1.0.0",
+  "author": "Demonnic",
+  "title": "Get the weather from https://wttr.in in a miniconsole",
+  "outputFile": true
+}
